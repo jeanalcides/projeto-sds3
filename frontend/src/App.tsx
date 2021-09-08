@@ -9,11 +9,11 @@ function App() {
     <>
       <NavBar />
       <div className="container">
-        <h1 className="text-primary py-3">Dashboard de vendas</h1>
+        <h1 className="text-primary py-3">Dashboard de Vendas</h1>
 
         <div className="row px-3">
             <div className="col-sm-6">
-              <h5 className="text-secondary text-center">Taxa de sucesso (%)</h5>
+              <h5 className="text-secondary text-center">Taxa de Sucesso (%)</h5>
               <BarCharts />  
             </div>
             <div className="col-sm-6">
